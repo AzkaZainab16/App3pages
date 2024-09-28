@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/rounded_sides.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Define solid background color -->
+    <solid android:color="#FFFAF9" /> <!-- Example background color -->
+
+    <!-- Define which corners to round -->
+    <corners
+        android:topLeftRadius="50dp"
+        android:topRightRadius="50dp"
+        android:bottomLeftRadius="50dp"
+        android:bottomRightRadius="50dp" /> <!-- Set desired radius for each corner -->
+
+    <!-- Optional: Add a border (stroke) -->
+    <stroke
+        android:width="0dp"
+        android:color="#4CAF50" /> <!-- Optional white border -->
+
+    <!-- Optional: Add padding inside the shape -->
+    <padding
+        android:left="0dp"
+        android:top="0dp"
+        android:right="0dp"
+        android:bottom="0dp" />
+</shape>

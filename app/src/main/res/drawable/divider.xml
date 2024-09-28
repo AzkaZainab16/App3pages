@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Line color -->
+    <solid android:color="#FAFAFA" /> <!-- Set color (black in this case) -->
+
+    <!-- Height/Thickness of the line -->
+    <size android:height="2dp" /> <!-- Set the thickness of the divider -->
+
+    <!-- Optional padding around the line -->
+    <padding
+        android:top="4dp"
+        android:bottom="4dp" />
+
+    <!-- Optional corners for rounded edges (if desired) -->
+    <corners android:radius="2dp" /> <!-- Rounded corners (if desired) -->
+</shape>

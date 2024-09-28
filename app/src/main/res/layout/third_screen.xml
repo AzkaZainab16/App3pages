@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+      android:text="<-"
+    android:textColor="@color/black"
+    android:textSize="20dp"
+    android:layout_marginTop="30dp"
+    android:backgroundTint="@color/white"
+    >
+
+</Button>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Details"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:layout_marginTop="45dp"
+    android:layout_marginLeft="150dp"
+    >
+
+</TextView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/fav"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="350dp"
+        >
+
+    </ImageView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/image1"
+        >
+
+    </ImageView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="This is a Plant called as Money Plant we used it as an indoor  plant"
+    android:textColor="@color/black"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:layout_marginTop="620dp"
+    android:layout_marginLeft="20dp"
+
+    >
+
+</TextView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/plus"
+        android:layout_marginTop="670dp"
+        android:layout_marginLeft="350dp"
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Money Plant"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="20dp"
+        >
+
+    </TextView>
+</FrameLayout>

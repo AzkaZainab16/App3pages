@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+       android:background="@drawable/menubar"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        >
+
+    </ImageView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/shoppingcart"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="350dp"
+        >
+
+    </ImageView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="What kind\nof Plants you want?"
+    android:textColor="@color/black"
+    android:textSize="20dp"
+    android:layout_marginTop="80dp"
+    android:layout_marginLeft="35dp"
+    android:textStyle="bold">
+
+</TextView>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="#D3D2D2"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="60dp"
+       android:text="Search"
+        android:paddingTop="5dp"
+        android:paddingLeft="50dp"
+        >
+    </TextView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/search"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        >
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/mic"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="360dp"
+        >
+    </ImageView>
+    <TextView
+    android:layout_width="350dp"
+    android:layout_height="30dp"
+    android:layout_marginTop="200dp"
+    android:layout_marginLeft="30dp"
+        android:text="All              Small                  Medium                   Hanging"
+    android:paddingTop="5dp"
+        android:textStyle="bold"
+
+    android:paddingLeft="10dp"
+    >
+</TextView>
+    <!--- first Pic-->
+ <ImageView
+     android:layout_width="200dp"
+     android:layout_height="205dp"
+     android:layout_marginTop="310dp"
+     android:background="@drawable/image1"
+   >
+
+ </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indoor"
+        android:textStyle="bold"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="210dp"
+        android:textSize="15sp">
+
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ficas"
+        android:textStyle="bold"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="210dp"
+        android:textSize="15sp">
+
+
+    </TextView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:background="@drawable/fav"
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="380dp">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/plus"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="170dp"
+        ></ImageView>
+    <!--- second Pic-->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/image2"
+        android:layout_marginLeft="190dp"
+        android:scaleType="centerCrop"
+
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indoor"
+        android:textStyle="bold"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/white"
+        android:layout_centerInParent="true"
+        android:textSize="15sp"
+     >
+
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:background="@drawable/fav"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="160dp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indoor"
+        android:textStyle="bold"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="210dp"
+        android:textSize="15sp">
+
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="touch me not"
+        android:textStyle="bold"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="2dp"
+        android:textSize="15sp">
+
+
+    </TextView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:background="@drawable/fav"
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="380dp">
+
+    </ImageView>
+
+    <!--- third Pic-->
+    <ImageView
+        android:layout_width="193dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="510dp"
+        android:background="@drawable/image3"
+
+        android:scaleType="centerCrop"
+       android:layout_marginBottom="0dp"
+
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indoor"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/white"
+        android:layout_centerInParent="true"
+        android:textSize="15sp"
+        >
+
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ficas"
+        android:textStyle="bold"
+        android:layout_marginTop="690dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp">
+
+
+    </TextView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:background="@drawable/fav"
+        android:layout_marginTop="515dp"
+        android:layout_marginLeft="160dp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indoor"
+        android:textStyle="bold"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="210dp"
+        android:textSize="15sp">
+
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ficas"
+        android:textStyle="bold"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="210dp"
+        android:textSize="15sp">
+
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:background="@drawable/fav"
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="380dp">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="193dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="510dp"
+        android:background="@drawable/image5"
+android:layout_marginLeft="200dp"
+        android:scaleType="centerCrop"
+
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indoor"
+        android:textStyle="bold"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="200dp"
+        android:background="@color/white"
+        android:paddingTop="8dp"
+        android:layout_centerInParent="true"
+        android:textSize="15sp"
+        >
+
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color\nAvaliable"
+        android:layout_marginTop="690dp"
+        android:layout_marginLeft="200dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/black">
+
+
+    </TextView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:background="@drawable/fav"
+        android:layout_marginTop="515dp"
+        android:layout_marginLeft="380dp">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/plus"
+        android:layout_marginTop="700dp"
+        android:layout_marginLeft="170dp"
+        >
+
+    </ImageView>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/plus"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="370dp"
+        >
+
+    </ImageView>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/plus"
+        android:layout_marginTop="690dp"
+        android:layout_marginLeft="370dp"
+        ></ImageView>
+
+</FrameLayout>
